@@ -1,0 +1,57 @@
+using System;
+namespace ConsoleApp
+{
+    class GreetingProgram
+    {
+        static void Main (string[] args)
+        {
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Present Address: ");
+            string preAdd = Console.ReadLine();
+            Console.Write("Permanent Address: ");
+            string perAdd = Console.ReadLine();
+            Console.Write("Date of Birth: ");
+            string birth = Console.ReadLine();
+            Console.Write("Civil Status: ");
+            string status = Console.ReadLine();
+            Console.Write("Citizenship: ");
+            string citizen = Console.ReadLine();
+            Console.Write("Place of Birth: ");
+            string plBirth =  Console.ReadLine();
+            Console.Write("Name of Father: ");
+            string Fname = Console.ReadLine();
+            Console.Write("Name of Mother: ");
+            string Mname = Console.ReadLine();
+            Console.Write("Address: ");
+            string Add = Console.ReadLine();
+            Console.Write("Language or Dialect Spoken: ");
+            string LangDia = Console.ReadLine();
+            Console.Write("In Case of Emergency:");
+            string Emergency = Console.ReadLine();
+            Console.Write("Religion: ");
+            string religion = Console.ReadLine();
+            Console.Write("Age: ");
+            string age = Console.ReadLine();
+            Console.Write("Weight: ");
+            string weight = Console.ReadLine();
+            Console.Write("Height: ");
+            string height = Console.ReadLine();
+            string sos = Console.ReadLine();
+            Console.WriteLine("Name                                 : " + name);
+            Console.WriteLine("Present Address                      : " + preAdd);
+            Console.WriteLine("Permanent Address                    : " + perAdd);
+            Console.WriteLine("Date of Birth                        ; " + birth +   " Religion:    " + religion);
+            Console.WriteLine("Civil Status                         :  " + status +                                                                      "  Age  :" + age);
+            Console.WriteLine("Citizenship                          : " + citizen +                                                                                                                                                        "  Weight   :" + weight);
+            Console.WriteLine("Place of Birth                       :" + plBirth +                                                                                                                                                          "  Height   :"  +  height);
+            Console.WriteLine("Name of Father                       : " + Fname);
+            Console.WriteLine("Name of Mother                       : " + Mname);
+            Console.WriteLine("Address                              : " + Add);
+            Console.WriteLine("Language or Dialect Spoken           : " + LangDia);
+            Console.WriteLine("In case of Emergency                 : " + Emergency);
+            Console.Write("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    } 
+}
